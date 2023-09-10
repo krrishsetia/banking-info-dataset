@@ -22,7 +22,7 @@ import multiprocessing
 pd.options.display.max_columns = 5
 pd.options.display.max_rows = 10000000
 
-data = pd.read_csv('csv files/bank-additional-full.csv',sep=';')
+data = pd.read_csv('bank-additional-full.csv',sep=';')
 
 def y(var):
     if var == 'yes':
